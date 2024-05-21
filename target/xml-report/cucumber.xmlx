@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.514" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US0001 Kullanici Bimser anasayfasinda test yapar." name="TC01 Kullanici anasayfa ekranında yer alan üst alanlarin kontrolunu yapar." time="5.193">
+<failure type="org.openqa.selenium.InvalidSelectorException" message="Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: driver.version: unknown">
+<![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.By$ByClassName.<init>(By.java:309)
+	at org.openqa.selenium.By.className(By.java:100)
+	at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromShortFindBy(AbstractFindByBuilder.java:42)
+	at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:83)
+	at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:82)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:32)
+	at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:55)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:109)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:101)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:88)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:76)
+	at pages.BimserPage.<init>(BimserPage.java:12)
+	at stepdefinitions.BimserStepdefinitions.kullanici_adresi_ile_anasayfaya_gider(BimserStepdefinitions.java:19)
+	at ✽.Kullanici "bimserUrl" adresi ile anasayfaya gider(file:///Users/yusuf/IdeaProjects/Bimser_Cucumber_Yeni/src/test/resources/features/US0001_Bimser_Anasayfa.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Kullanici "bimserUrl" adresi ile anasayfaya gider.....................failed
+And Telefon numarasini arama alanina tiklar.................................skipped
+And FaceTime acilsin mi? alaninda iptal butonuna tiklar.....................skipped
+And mail adresine tiklar. Mail adresinin acildigi alanda cik butonuna tiklar..skipped
+And Facebook ikonuna tiklar. Facebook sayfasina gecis yaptiktan sonra tekrar Bimser sayfasina geri donulur..skipped
+And X ikonuna tiklar. X sayfasina gecis yaptiktan sonra tekrar Bimser sayfasina geri donulur..skipped
+And Youtube ikonuna tiklanir. Youtube sayfasina gecis yaptiktan sonra tekrar Bimser sayfasina geri donulur..skipped
+And Linkedin ikonuna tiklanir. Linkedin sayfasina gecis yaptiktan sonra tekrar Bimser sayfasina geri donulur..skipped
+And Instagram ikonuna tiklanir. Instagram sayfasina gecis yaptiktan sonra tekrar Bimser sayfasina geri donulur..skipped
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
